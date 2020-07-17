@@ -14,6 +14,7 @@ public class FindelementviaChrome {
 		driver.get("https://www.google.com");
 		
 		driver.findElement(By.name("q")).sendKeys("Niagara Falls"+Keys.ENTER);
+		//sending niagara falls keyword
 
 	}
 
